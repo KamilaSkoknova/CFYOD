@@ -1,0 +1,34 @@
+.magnet-green {
+    height: 66vh;
+    background-color: $green;
+
+    &__title {
+        margin: 0 auto;
+
+        h1 {
+            color: $white;
+            font-size: 6em;
+        }
+    }
+}
+
+.magnet-white {
+    min-height: 25vh;
+    border-bottom: 3px solid $red;
+}
+
+.magnet-red {
+    min-height: 25vh;
+    border-bottom: 3px solid $red;
+
+    &__title {
+        margin: 0 auto;
+
+        h1 {
+            color: $red;
+            font-size: 6em;
+            text-transform: uppercase;
+            font-family: $font-family__secondary;
+        }
+    }
+}

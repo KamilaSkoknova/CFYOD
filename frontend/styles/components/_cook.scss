@@ -1,0 +1,13 @@
+.one-cook {
+    padding: 90px 0 20px;
+
+    &__img {
+        text-align: center;
+    }
+
+    &__links {
+        &--empty {
+            padding: 30px 50px;
+        }
+    }
+}

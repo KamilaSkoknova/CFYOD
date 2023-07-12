@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'components/auth';
+@import 'components/buttons';
+@import 'components/colors-classes';
+@import 'components/footer';
+@import 'components/fp';
+@import 'components/header';
+@import 'components/magnet';
+@import 'components/spaces';
+@import 'components/text';
+@import 'components/utilities';
+@import 'components/recipe';
+@import 'components/cook';
+@import 'components/service';
+
+.recepist-sidebar {
+    padding: 20px;
+
+    img {
+        text-align: center;
+    }
+}

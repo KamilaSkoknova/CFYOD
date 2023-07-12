@@ -1,0 +1,11 @@
+.service-item {
+    padding-bottom: 90px;
+
+    &__available {
+        .bg-red-light {
+            color: $white;
+            border-radius: 4px;
+            padding: 5px 20px;
+        }
+    }
+}

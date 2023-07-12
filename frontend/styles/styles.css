@@ -1,0 +1,249 @@
+.auth-hrefs a {
+  color: white;
+  text-decoration: none;
+}
+.auth-hrefs a:hover {
+  color: beige;
+}
+
+.btn-service {
+  margin: 0px 5px;
+  background-color: rgb(0, 130, 82);
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+}
+.btn-service:hover {
+  background-color: rgb(161, 0, 0);
+  color: white;
+}
+
+.bg-green {
+  background-color: rgb(0, 130, 82);
+}
+
+.bg-green-light {
+  background-color: rgba(0, 130, 82, 0.8);
+}
+
+.bg-red {
+  background-color: rgb(161, 0, 0);
+}
+
+.bg-red-light {
+  background-color: rgba(161, 0, 0, 0.6);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gray {
+  background-color: rgb(237, 237, 237);
+}
+
+.red {
+  color: rgb(161, 0, 0);
+}
+
+.green {
+  color: rgb(0, 130, 82);
+}
+
+.white {
+  color: white;
+}
+
+.footer {
+  padding-top: 10px;
+  border-top: 1px solid rgb(0, 130, 82);
+}
+.footer__copy {
+  color: rgb(0, 130, 82);
+}
+.footer__copy--red {
+  color: rgb(161, 0, 0);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.recipes-fp,
+.services-fp,
+.orders-fp,
+.contributors-fp {
+  padding: 90px 10px;
+}
+.recipes-fp__recipe--img,
+.services-fp__recipe--img,
+.orders-fp__recipe--img,
+.contributors-fp__recipe--img {
+  overflow: hidden;
+}
+.recipes-fp__recipe--img img:hover,
+.services-fp__recipe--img img:hover,
+.orders-fp__recipe--img img:hover,
+.contributors-fp__recipe--img img:hover {
+  scale: 1.1;
+  transition: 2s;
+}
+.recipes-fp__recipe:hover,
+.services-fp__recipe:hover,
+.orders-fp__recipe:hover,
+.contributors-fp__recipe:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cooks-fp {
+  padding: 90px 10px;
+  background-color: rgb(0, 102, 65);
+  color: white;
+}
+.cooks-fp__cook {
+  border: 1px solid rgb(0, 130, 82);
+  margin-bottom: 20px;
+  background-color: rgb(0, 130, 82);
+  border-radius: 10px;
+}
+.cooks-fp__cook--img {
+  overflow: hidden;
+  margin: 1vw;
+  border-radius: 10px;
+}
+.cooks-fp__cook--img img {
+  text-align: center;
+  scale: 1.1;
+  height: 100%;
+  width: auto;
+}
+.cooks-fp__cook--text {
+  padding: 15px;
+  color: white;
+}
+.cooks-fp__cook--hats {
+  padding: 15px;
+  background-color: rgb(0, 102, 65);
+  color: white;
+}
+.cooks-fp__cook--hats img {
+  width: 30px;
+  height: auto;
+}
+
+.orders-fp h4 {
+  font-family: "Belanosima", sans-serif;
+}
+
+.navbar-brand-img {
+  width: 30px;
+  height: 30px;
+}
+
+.magnet-green {
+  height: 66vh;
+  background-color: rgb(0, 130, 82);
+}
+.magnet-green__title {
+  margin: 0 auto;
+}
+.magnet-green__title h1 {
+  color: white;
+  font-size: 6em;
+}
+
+.magnet-white {
+  min-height: 25vh;
+  border-bottom: 3px solid rgb(161, 0, 0);
+}
+
+.magnet-red {
+  min-height: 25vh;
+  border-bottom: 3px solid rgb(161, 0, 0);
+}
+.magnet-red__title {
+  margin: 0 auto;
+}
+.magnet-red__title h1 {
+  color: rgb(161, 0, 0);
+  font-size: 6em;
+  text-transform: uppercase;
+  font-family: "Belanosima", sans-serif;
+}
+
+.height-whole {
+  min-height: 90vh;
+}
+
+.padding-section {
+  padding: 90px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(0, 130, 82);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Courgette", cursive;
+}
+
+h6, p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h6 {
+  font-weight: 800;
+}
+
+ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.pagination {
+  --bs-pagination-active-bg: $bg-green;
+}
+.pagination .disabled > .page-link {
+  color: rgb(0, 130, 82);
+}
+.pagination .page-link {
+  background-color: white;
+  color: rgb(0, 130, 82);
+}
+
+.border-in-profile {
+  margin: 50px 0;
+  border-bottom: 2px dotted rgb(161, 0, 0);
+}
+
+.recipe-item-whole {
+  padding-bottom: 90px;
+}
+
+.one-cook {
+  padding: 90px 0 20px;
+}
+.one-cook__img {
+  text-align: center;
+}
+.one-cook__links--empty {
+  padding: 30px 50px;
+}
+
+.service-item {
+  padding-bottom: 90px;
+}
+.service-item__available .bg-red-light {
+  color: white;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+.recepist-sidebar {
+  padding: 20px;
+}
+.recepist-sidebar img {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

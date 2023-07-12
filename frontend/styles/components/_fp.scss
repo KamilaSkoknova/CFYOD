@@ -1,0 +1,72 @@
+.recipes-fp,
+.services-fp,
+.orders-fp,
+.contributors-fp {
+    padding: 90px 10px;
+
+    &__recipe {
+        &--img {
+            overflow: hidden;
+
+            img {
+                &:hover {
+                    scale: 1.1;
+                    transition: 2s;
+                    
+                }
+            }
+        }
+
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    }
+}
+
+.cooks-fp {
+    padding: 90px 10px;
+    background-color: $green-dark;
+    color: $white;
+
+    &__cook {
+        border: 1px solid $green;
+        margin-bottom: 20px;
+        background-color: $green;
+        border-radius: 10px;
+
+        &--img {
+            overflow: hidden;
+            margin: 1vw;
+            border-radius: 10px;
+
+            img {
+                text-align: center;
+                scale: 1.1;
+                height: 100%;
+                width: auto;
+            }
+        }
+
+        &--text {
+            padding: 15px;
+            color: $white;
+        }
+
+        &--hats {
+            padding: 15px;
+            background-color: $green-dark;
+            color: $white;
+
+            img {
+                width: 30px;
+                height: auto;
+            }
+        }
+    }
+}
+
+.orders-fp {
+    h4 {
+        font-family: $font-family__secondary;
+    }
+}

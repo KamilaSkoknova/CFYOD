@@ -1,0 +1,14 @@
+.footer {
+    padding-top: 10px;
+    border-top: 1px solid $green;
+
+    &__copy {
+        color: $green;
+
+        &--red {
+            color: $red;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}

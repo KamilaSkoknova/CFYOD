@@ -1,0 +1,10 @@
+.auth-hrefs {
+    a {
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+            color: beige;
+        }
+    }
+}
